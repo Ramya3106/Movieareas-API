@@ -1,1 +1,4 @@
 node_modules
+
+#Hode sensitive information
+.env
