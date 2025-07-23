@@ -3,8 +3,16 @@ res.send("Get all movie lists");
 };
 
  export const MovieCreate = (req, res) => {
-  res.send("create a movie");
+    //id, title, desc
+
+    console.log(req.body);
+
+    return res.json(req.body);
+
+
+  //create the movie info.
 };
+
 export const MovieUpdate = (req, res) => {
 res.send("update a movie");
 };
