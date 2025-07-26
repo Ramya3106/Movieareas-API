@@ -3,8 +3,14 @@ import { model, Schema } from "mongoose";
 //Write the schema
 
 const schema = new Schema({
-    title: string,
-    desc: string,
+    title: {type: String,
+    required: true
+},
+desc: {type: String,
+required: true
+},
+
+    
 });
 
 //Create your model
